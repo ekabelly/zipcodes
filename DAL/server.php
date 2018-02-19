@@ -34,12 +34,6 @@ class Route {
 		}
 	}
 
-	private function __clone(){}
-
-	private function checkMethod($method){
-		return $_SERVER['REQUEST_METHOD'] === $method;
-	}
-
 	private function fetchPlacesFromDb(){
 		$place = new Place();
 		$res = $place->fetchPlaces();

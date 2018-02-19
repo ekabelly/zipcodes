@@ -10,10 +10,6 @@ class DB {
 
 	private function __construct(){
 		$this->conn = mysqli_connect($this->host, $this->username, $this->pass, $this->_db);
-		if (mysqli_connect_error()) {
-			trigger_error("Failed to conencto to MySQL: " . mysql_connect_error(),
-				E_USER_ERROR);
-		}
 	}
 
 	public static function getInstance(){

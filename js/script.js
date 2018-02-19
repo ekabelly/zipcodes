@@ -21,6 +21,7 @@ const fetchPlaces = (country, zip) =>{
 const initPlacesList = res =>{
 	if (res.status === 'failed') {
 		getWIthId('error').innerHTML = res.messege;
+		getWIthId('table').innerHTML = '';
 	}else{
 		getWIthId('error').innerHTML = '';
 		getWIthId('table').innerHTML = arrToTable(res);
