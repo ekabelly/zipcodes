@@ -1,0 +1,19 @@
+* {
+	padding: 0;
+	margin:0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 110%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    height: 50px;
+}
