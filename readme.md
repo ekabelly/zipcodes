@@ -27,3 +27,5 @@ download this project to xampp folder, and put it in htdocs.
 activate mysql and apache in xampp.
 in phpmyadmin, create a new database called exacly = zipcodes   . once this is done, import zipcodes.sql to that DB.
 now ur good to go! put in the url localhost/zip, fill in a country and a zipcode and start testing!
+
+u may find a zipcodes list here: http://www.geonames.org/postal-codes/
